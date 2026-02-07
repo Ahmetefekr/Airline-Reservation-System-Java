@@ -8,27 +8,26 @@
 ![File I/O](https://img.shields.io/badge/Storage-.dat_Files-purple?style=for-the-badge)
 
 ## 📖 Project Overview
-[cite_start]This project was developed as a **Capstone Course Project** to apply advanced **Object-Oriented Programming (OOP)** principles[cite: 360, 361]. [cite_start]The system handles multiple modules including Flight Management and Ticketing without using a traditional database, utilizing efficient **file-based persistence** with `.dat` files[cite: 404, 405].
+This project was developed as a **Capstone Course Project** to apply advanced **Object-Oriented Programming (OOP)** principles. The system handles multiple modules including Flight Management and Ticketing without using a traditional database, utilizing efficient **file-based persistence** with `.dat` files.
 
 ## 👥 Contributors (The Team)
 This project was collaboratively developed by:
-* **[Senin Adın]** - *Backend Logic & Concurrency Management*
-* **[Arkadaşının Adı]** ([@ArkadasininGithubKullaniciAdi](https://github.com/ArkadasininGithubKullaniciAdi)) - *Frontend GUI & Reporting Module*
+* Ahmet Efe Karahan & Yiğit Aytürk
 
 ## ⚙️ Key Features
 
 ### 1. Advanced Concurrency (Multithreading)
 The system solves critical synchronization scenarios:
-* [cite_start]**Simultaneous Seat Reservation:** Implements thread-safe logic to prevent "double-booking" when multiple users try to book the same seat simultaneously (simulated with 90 passengers/threads)[cite: 376, 377].
-* [cite_start]**Asynchronous Reporting:** Generates heavy occupancy reports in background threads (`ReportGenerator Thread`) to keep the main GUI responsive[cite: 384, 386].
+* **Simultaneous Seat Reservation:** Implements thread-safe logic to prevent "double-booking" when multiple users try to book the same seat simultaneously (simulated with 90 passengers/threads).
+* **Asynchronous Reporting:** Generates heavy occupancy reports in background threads (`ReportGenerator Thread`) to keep the main GUI responsive.
 
 ### 2. Core Modules
-* [cite_start]**Flight Management:** Create/Edit flights, manage routes, and scheduling[cite: 364].
-* [cite_start]**Smart Ticketing:** Dynamic pricing based on Business/Economy classes and baggage allowance[cite: 366, 369].
-* [cite_start]**Visual Seat Selection:** Interactive GUI matrix representing the plane's seating capacity[cite: 379].
+* **Flight Management:** Create/Edit flights, manage routes, and scheduling.
+* **Smart Ticketing:** Dynamic pricing based on Business/Economy classes and baggage allowance.
+* **Visual Seat Selection:** Interactive GUI matrix representing the plane's seating capacity.
 
 ### 3. Quality Assurance
-* [cite_start]**Unit Testing:** Contains JUnit 5 tests covering critical business logic like `PriceCalculation`, `FlightSearchEngine` and `SeatManager` exceptions[cite: 388, 390].
+* **Unit Testing:** Contains JUnit 5 tests covering critical business logic like `PriceCalculation`, `FlightSearchEngine` and `SeatManager` exceptions.
 
 ## 📸 Screenshots
 | Login Screen | Seat Selection |
@@ -37,8 +36,8 @@ The system solves critical synchronization scenarios:
 
 ## 🛠️ Technical Architecture
 * **Language:** Java 17+
-* [cite_start]**GUI:** Swing / JavaFX[cite: 399].
-* [cite_start]**Data Storage:** Custom File I/O using `.dat` files for secure data persistence[cite: 404].
+* **GUI:** Swing / JavaFX.
+* **Data Storage:** Custom File I/O using `.dat` files for secure data persistence.
 * **Architecture:** Modular design with strict separation of concerns (Managers, Services, Models).
 
 ---
