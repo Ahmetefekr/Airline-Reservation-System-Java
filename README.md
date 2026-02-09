@@ -29,11 +29,6 @@ The system solves critical synchronization scenarios:
 ### 3. Quality Assurance
 * **Unit Testing:** Contains JUnit 5 tests covering critical business logic like `PriceCalculation`, `FlightSearchEngine` and `SeatManager` exceptions.
 
-## 📸 Screenshots
-| Login Screen | Seat Selection |
-|:---:|:---:|
-| <img src="screenshots/login.png" width="400" alt="Login"> | <img src="screenshots/seat.png" width="400" alt="Seat Map"> |
-
 ## 🛠️ Technical Architecture
 * **Language:** Java 17+
 * **GUI:** Swing / JavaFX.
